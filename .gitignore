@@ -35,4 +35,3 @@ node_modules
 ssh/id_rsa
 ssh/id_rsa.ppk
 ssh/id_rsa.pub
-ecosystem.config.js
