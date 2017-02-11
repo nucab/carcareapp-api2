@@ -6,7 +6,8 @@
     "npm": ">=3"
   },
   "scripts": {
-    "start": "nodemon --watch server --exec babel-node -- server/index.js"
+    "start": "nodemon --watch server --exec babel-node -- server/index.js",
+    "bootstrap": "knex migrate:latest && knex seed:run"
   },
   "author": "Cory House",
   "license": "MIT",

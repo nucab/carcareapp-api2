@@ -2,6 +2,12 @@ import express from 'express';
 import path from 'path';
 import bodyParser from 'body-parser';
 
+import knex from 'knex';
+import config from '../knexfile';
+
+const knexConfig = config[process.env.NODE_ENV || "development"];
+const db = knex(knexConfig);
+
 import services from './routes/services';
 
 let app = express();
