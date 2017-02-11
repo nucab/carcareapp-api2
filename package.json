@@ -1,6 +1,6 @@
 {
   "name": "carcareapp-api",
-  "version": "5.0.0",
+  "version": "1.0.0",
   "description": "Car Care App API",
   "engines": {
     "npm": ">=3"
