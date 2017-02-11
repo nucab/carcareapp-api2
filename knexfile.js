@@ -35,13 +35,6 @@ module.exports = {
       database: 'carcareapp_api',
       user:     'root',
       password: 'yA6#NPq34?L6yNnj'
-    },
-    pool: {
-      min: 2,
-      max: 10
-    },
-    migrations: {
-      tableName: 'knex_migrations'
     }
   }
 
