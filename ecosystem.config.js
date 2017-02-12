@@ -12,7 +12,7 @@ module.exports = {
 	    env : {
 		    NODE_ENV: "development"
 	    },
-      interpreter: "babel-node",
+      interpreter: "./node_modules/.bin/babel-node",
 	    env_production : {
 		    NODE_ENV: "production"
 	    }
